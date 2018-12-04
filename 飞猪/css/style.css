@@ -1,0 +1,124 @@
+/*     全局     */
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #f2f3f4;
+  font-size: 1.2rem;
+  font-family: "Microsoft YaHei", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #3c3c3c;
+  text-decoration: none;
+}
+
+.header-wrap {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+
+/*     头部     */
+
+.header--log,
+.search-mod,
+.header--telephone {
+  float: left;
+}
+
+.header--log {
+  margin: 0;
+  margin-top: 17px;
+}
+
+.header-mod {
+  margin: 0 auto;
+  width: 1190px;
+  height: 90px;
+  vertical-align:middle;
+}
+
+.search-mod {
+  margin-top: 13px;
+  margin-left: 50px;
+}
+
+.search--tab li{
+  display: inline-block;
+  margin-left: 1em;
+  padding: .5em 1em;
+  font-weight: bold;
+  color: #fca54b;
+  cursor: pointer;
+}
+
+.search--tab .cur-tab {
+  border-radius: 3px 3px 0 0;
+  background: linear-gradient(135deg, #fcd71e 0, #ff9f02 100%);
+  color: #fff;
+}
+
+.search--frame {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #ffc900;
+  border-radius: 4px;
+}
+
+.search--frame input {
+  margin: 0 20px;
+  width: 436px;
+  border: none;
+  font-size: 1.4rem;
+  line-height: 2em;
+}
+
+.search--frame button {
+  margin: 0;
+  padding: 0 1em;
+  border: none;
+  background: linear-gradient(#ffe700 0, #ffc900 100%);
+  font-size: 16px;
+  line-height: 2em;
+  cursor: pointer;
+}
+
+.search--frame button:before {
+  content: '';
+  display: inline-block;
+  margin-right: 5px;
+  width: 15px;
+  height: 16px;
+  background: url("../img/TB1D5lplsLJ8KJjy0FnXXcFDpXa-32-34.png");
+  background-size: cover;
+  line-height: 2em;
+
+}
+
+.header--telephone {
+  display: inline-block;
+  margin-top: 23px;
+  margin-left: 60px;
+  line-height: 1.5em;
+}
+
+.header--telephone>div {
+  overflow: hidden;
+}
+
+.header--telephone span,
+.header--telephone ul {
+  float: left;
+}
+
+.header--telephone span {
+  margin-right: 5px;
+}
