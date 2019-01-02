@@ -1,3 +1,10 @@
+/* 字体 */
+@font-face {
+  font-family: 'homefont';
+  src: url('https://at.alicdn.com/t/font_7rxw0smec5uhm2t9.woff')
+}
+
+
 /*     全局     */
 html {
   font-size: 10px;
@@ -30,6 +37,12 @@ a {
   height: 1em;
 }
 
+.header-mod,
+.nav-mode,
+.child-nav-mode {
+  width: 1190px;
+}
+
 
 /*     头部     */
 
@@ -46,7 +59,6 @@ a {
 
 .header-mod {
   margin: 0 auto;
-  width: 1190px;
   height: 90px;
   vertical-align:middle;
 }
@@ -135,7 +147,6 @@ a {
 }
 
 .nav-mode {
-  width: 1190px;
   padding: 5px 0;
   margin: 0 auto;
   font-size: 1.6rem;
@@ -163,4 +174,38 @@ a {
 
 .nav-mode li a:hover {
   background-color: #fff;
+}
+
+/* 子菜单 */
+.child-nav-warp {
+  background-color: #fff;
+}
+
+.child-nav-mode {
+  margin: 0 auto;
+  padding: 12px 0 10px;
+  overflow: hidden;
+}
+
+.child-nav-mode li {
+  float: left;
+}
+
+.child-nav-mode li a {
+  padding: 0 1em;
+  border-left: 1px solid #e1e1e1;
+}
+
+.child-nav-mode li:first-child a {
+  display: inline-block;
+  width: 70px;
+  height: 16px;
+  border-left: 4px solid #ffc900;
+  background: url('../img/TB1Dn4_PXXXXXauapXXXXXXXXXX-154-36.png') no-repeat;
+  background-size: auto 100%;
+  background-position-x: 10px; 
+}
+.child-nav-mode a span {
+  margin-right: .5em;
+  font-family: 'homefont'
 }
